@@ -1,0 +1,28 @@
+.conteiner_temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.text{
+    color: white;
+    font-size: 21px;
+    
+}
+.celsius_current{
+    color: white;
+    font-size: 60px;
+}
+.pharyngitis_current{
+    color: white;
+    font-size: 60px;
+}
+.celsius_12hours{
+    font-size: 60px;
+    color: white;
+    }
+.pharyngitis_12hours{
+    font-size: 60px;
+    color: white;
+}
