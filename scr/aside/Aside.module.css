@@ -1,0 +1,10 @@
+.aside {
+    background-color: rgba(0,0,0, 0.3);
+    flex-direction: row;
+    width: 15%;
+    align-items: start;
+    border-radius: 30px;
+    border: solid 1px grey;
+    backdrop-filter: blur(5px);
+    
+}
