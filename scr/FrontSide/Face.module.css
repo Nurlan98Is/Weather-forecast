@@ -1,0 +1,11 @@
+.front_side{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.future_weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
