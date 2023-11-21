@@ -1,3 +1,4 @@
+import React from 'react'
 import style from './Aside.module.css'
 import Input from './Input/Input.jsx'
 import InfoTemp from './InfoTemp/InfoTemp.jsx'
