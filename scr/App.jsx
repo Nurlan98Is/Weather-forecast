@@ -1,4 +1,4 @@
-import React from 'react
+import React from 'react'
 import "./App.main.css"
 import Aside from './aside/Aside.jsx'
 import Face from './FrontSide/Face.jsx'
