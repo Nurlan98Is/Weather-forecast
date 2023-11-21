@@ -1,3 +1,4 @@
+import React from 'react'
 import style from './Input.module.css'
 import {BsSearch} from 'react-icons/bs'
 import {CiTempHigh} from 'react-icons/ci'
