@@ -1,3 +1,4 @@
+import React from 'react'
 import style from './OtherInfo.module.css'
 import Barometr from 'a:/projects/App weather forecast/Weather_forecast/src/assets/barometr.png'
 import Wind from 'a:/projects/App weather forecast/Weather_forecast/src/assets/wind.png'
