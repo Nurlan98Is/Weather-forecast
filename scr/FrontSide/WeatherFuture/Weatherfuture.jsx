@@ -1,3 +1,4 @@
+import React from 'react'
 import style from './WeatherTime.module.css'
 import ClearSky from 'a:/projects/App weather forecast/Weather_forecast/src/assets/sun.png'
 import Cloud from 'a:/projects/App weather forecast/Weather_forecast/src/assets/cloud.png'
