@@ -1,3 +1,4 @@
+import React from 'react'
 import City from './City/City.jsx';
 import style from './Face.module.css';
 import   WeatherFutureDay1  from './WeatherFuture/Weatherfuture.jsx';
