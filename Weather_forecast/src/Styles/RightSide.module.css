@@ -1,0 +1,19 @@
+.RightSide{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.future_weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 480px) {
+    .future_weather {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+}

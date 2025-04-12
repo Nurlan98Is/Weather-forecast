@@ -1,0 +1,32 @@
+
+.city{
+    font-size: 120px;
+    color: white;
+}
+.date{
+    font-size: 40px;
+    color: white
+}
+.time{
+    font-size: 40px;
+    color: white
+}
+.description{
+    font-size: 50px;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .city_conteiner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .city {
+        font-size: 80px;
+    }
+    .description{
+        font-size: 30px;
+        color: white;
+    }
+}

@@ -1,0 +1,8 @@
+.generalInfo_conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    gap: 10px
+}
