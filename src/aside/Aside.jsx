@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Aside.module.css'
-import Input from './Input/Input.jsx'
+import Input from './Imput/Input.jsx'
 import InfoTemp from './InfoTemp/InfoTemp.jsx'
 import OtherInfo from './OtherInfo/OtherInfo.jsx'
 

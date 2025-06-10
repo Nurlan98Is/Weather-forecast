@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './OtherInfo.module.css'
-import Barometr from 'a:/projects/App weather forecast/Weather_forecast/src/assets/barometr.png'
-import Wind from 'a:/projects/App weather forecast/Weather_forecast/src/assets/wind.png'
-import Visibility from 'a:/projects/App weather forecast/Weather_forecast/src/assets/visibility.png'
-import Humidity from 'a:/projects/App weather forecast/Weather_forecast/src/assets/humidity.png'
+import Barometr from '/src/assets/barometr.png'
+import Wind from '/src/assets/wind.png'
+import Visibility from '/src/assets/visibility.png'
+import Humidity from '/src/assets/humidity.png'
 export default function OtherInfo(props){
     return(
             <div className={style.otherinfo_conteiner}>
