@@ -9,6 +9,7 @@
     background: transparent;
     color: aliceblue;
     border: none;
+    width: 100%;
 }
 .conteiner{
     display: flex;
@@ -38,8 +39,3 @@
     outline: none;
 }
 
-@media (max-width: 765px) {
-    #enter{
-        width: 100%;
-    }
-}
