@@ -26,7 +26,7 @@ export default function WeatherFutureCard({ weatherFutureArray }){
         }
     }
     return(
-            <div className = {style.conteiner_card}>
+            <div className = {style.container_card}>
                 <div className={style.time_f}>
                     <p>{dt_txt}</p>
                 </div>

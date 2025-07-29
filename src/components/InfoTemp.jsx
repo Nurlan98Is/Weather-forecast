@@ -11,14 +11,17 @@ export default function InfoTemp({ weather = {}, futureWeather = {} }) {
     const toFahrenheit = (k) => k === 0 ? 0 : Math.round(1.8 * (k - 273) + 32);
 
     return (
-        <div className={style.conteiner_temp}>
-            <p className={style.text}>Current Temperature:</p>
-            <p className={style.celsius_current}>{toCelsius(currentTemp)}°C</p>
-            <p className={style.pharyngitis_current}>{toFahrenheit(currentTemp)}°F</p>
-
-            <p className={style.text}>Temperature after 12 hours:</p>
-            <p className={style.celsius_12hours}>{toCelsius(futureTemp)}°C</p>
-            <p className={style.pharyngitis_12hours}>{toFahrenheit(futureTemp)}°F</p>
+        <div className={style.container_temp}>
+            <div className={style.currentTempContainer}>
+                <p className={style.text}>Current Temperature:</p>
+                <p className={style.celsius_current}>{toCelsius(currentTemp)}°C</p>
+                <p className={style.pharyngitis_current}>{toFahrenheit(currentTemp)}°F</p>
+            </div>
+            <div className={style.futureTempContainer}>
+                <p className={style.text}>Temperature after 12 hours:</p>
+                <p className={style.celsius_12hours}>{toCelsius(futureTemp)}°C</p>
+                <p className={style.pharyngitis_12hours}>{toFahrenheit(futureTemp)}°F</p>
+            </div>
         </div>
     );
 }
