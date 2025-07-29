@@ -6,23 +6,32 @@
     
 }
 .text{
+    text-align: center;
     color: white;
-    font-size: 21px;
+    font-size: 18px;
     
 }
 .celsius_current{
     color: white;
-    font-size: 60px;
+    font-size: 45px;
 }
 .pharyngitis_current{
     color: white;
-    font-size: 60px;
+    font-size: 45px;
 }
 .celsius_12hours{
-    font-size: 60px;
+    font-size: 45px;
     color: white;
     }
 .pharyngitis_12hours{
-    font-size: 60px;
+    font-size: 45px;
     color: white;
+}
+
+@media (max-width: 765px) {
+    .conteiner_temp{
+        flex-direction: column;
+        align-items: center;
+
+    }
 }

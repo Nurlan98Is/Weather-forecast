@@ -37,3 +37,9 @@
     border: none;
     outline: none;
 }
+
+@media (max-width: 765px) {
+    #enter{
+        width: 100%;
+    }
+}

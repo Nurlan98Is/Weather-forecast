@@ -1,11 +1,10 @@
 import React from 'react'
-import style from './Input.module.css'
+import style from '../css/Input.module.css'
 import {BsSearch} from 'react-icons/bs'
 import {CiTempHigh} from 'react-icons/ci'
 
 export default function Input(props){
-    
-    
+
     return(
         <div className={style.enter}>
             <div className ={style.conteiner}>

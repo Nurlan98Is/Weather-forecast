@@ -1,7 +1,9 @@
+.city_container {
 
+}
 .city{
-    font-size: 120px;
-    color: white;
+    font-size: 60px;
+    color: black;
 }
 .date{
     font-size: 40px;
