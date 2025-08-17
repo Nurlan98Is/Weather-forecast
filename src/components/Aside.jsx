@@ -11,7 +11,7 @@ export default function Aside({ futureWeather, weather, handleLocation, location
     console.log('future weather in aside',list)
     return(
         <div className={style.aside}>
-            <Input handleLocation ={handleLocation} searchLocation = {searchLocation} location = {location}/>
+            <Input handleLocation = {handleLocation} searchLocation = {searchLocation} location = {location}/>
             <InfoTemp weather = {main} futureWeather= {list[5]}/>
             <OtherInfo
             weather = {weather}

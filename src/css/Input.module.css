@@ -21,8 +21,13 @@
 .temp{
     justify-content: start;
 }
-.lope{
-    justify-content: end;
+.btnSearch {
+    all: unset;
+    background: none !important;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 .BsSearch{
     color: white;
