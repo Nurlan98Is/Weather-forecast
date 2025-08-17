@@ -5,6 +5,12 @@
     font-size: 80px;
     color: black;
 }
+@media (max-width: 430px) {
+    .city{
+        font-size: 60px;
+        color: black;
+    }
+}
 .date{
     font-size: 40px;
     color: white

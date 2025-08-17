@@ -16,7 +16,7 @@ import SnowfallImg from '@/assets/bgImg/Snowfall.jpg'
 export default function App(){
   
   const [location, setLocation] = useState('')
-  const handleLocation =(event) =>{
+  const handleLocation = (event) =>{
     setLocation(event.target.value)
   }
   console.log('location = ',location)
@@ -38,7 +38,7 @@ export default function App(){
   const API_FUTURE_WEATHER = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${API_KEY}`
   
   const searchLocation = async (event)=>{
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' || event.type === 'click') {
         try {
           const responseCurrentWeather = await fetch(API_CURRENT)
           const dataCurrentWeather = await responseCurrentWeather.json()
@@ -76,7 +76,6 @@ export default function App(){
         }
     }
   return(
-   <div >
      <div
          className='app'
          style={{
@@ -98,6 +97,5 @@ export default function App(){
           <ModalWindow data={weather} onClose={() => {setIsOpenModalWindow(false)}}/>
       )}
     </div>
-  </div>
   )
 }
