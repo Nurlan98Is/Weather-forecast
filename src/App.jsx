@@ -6,6 +6,12 @@ import { useState } from "react"
 import  defaultImg from '../src/assets/bgImg/DefaultImg.png'
 import {ModalWindow} from "./components/ModalWindow.jsx";
 const API_KEY = '672f039e824de7e4b0034d932897cb0d';
+import DefaultImg from '@/assets/bgImg/DefaultImg.png'
+import CloudsImg from '@/assets/bgImg/Clouds.jpg'
+import SunnyImg from '@/assets/bgImg/Sunny.jpg'
+import RainImg from '@/assets/bgImg/Rain.jpg'
+import SnowfallImg from '@/assets/bgImg/Snowfall.jpg'
+
 
 export default function App(){
   
@@ -54,20 +60,21 @@ export default function App(){
   }, [weather]);
 
  console.log('BGIMG', background)
-  const getBackgroundImage = (weather) =>{
-    switch (weather){
-      case 'Clouds':
-        return 'url(src/assets/bgImg/Clouds.jpg)';
-      case 'Clear':
-        return 'url(src/assets/bgImg/Sunny.jpg'
-      case 'Rain':
-          return 'url(src/assets/bgImg/Rain.jpg)'
-      case 'Snow':
-          return 'url(src/assets/bgImg/Snowfall.jpg)'
-        default:
-            return 'url(src/assets/bgImg/DefaultImg.png)'
+
+    const getBackgroundImage = (weather) => {
+        switch (weather){
+            case 'Clouds':
+                return `url(${CloudsImg})`;
+            case 'Clear':
+                return `url(${SunnyImg})`;
+            case 'Rain':
+                return `url(${RainImg})`;
+            case 'Snow':
+                return `url(${SnowfallImg})`;
+            default:
+                return `url(${DefaultImg})`;
+        }
     }
-  }
   return(
    <div >
      <div
